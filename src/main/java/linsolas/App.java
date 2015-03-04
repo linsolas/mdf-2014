@@ -13,6 +13,10 @@ public class App {
         }
         /* Vous pouvez aussi effectuer votre traitement une fois que vous avez lu toutes les données.*/
     }
+    
+    public static String work(String str) {
+        return str;
+    }
 
     public static <K, V extends Comparable<? super V>> Map<K, V> sortByValue( Map<K, V> map, final boolean inverse ) {
         List<Map.Entry<K, V>> list = new LinkedList<Map.Entry<K, V>>(map.entrySet());
