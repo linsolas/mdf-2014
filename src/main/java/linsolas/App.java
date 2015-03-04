@@ -1,4 +1,4 @@
-package com.sg;
+package linsolas;
 
 import java.util.*;
 
